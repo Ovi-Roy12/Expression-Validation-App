@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 100px;
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 50vw;
+    height: 10vh!important;
+    margin: 20px 50px;
+    padding: 15px 100px;
+    transition: height 0.2s; /* Adding a transition for smooth height change */
+    font-size: 20px;
+}
+
+
+
+
+
+button {
+    width: 120px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#validationResult {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
